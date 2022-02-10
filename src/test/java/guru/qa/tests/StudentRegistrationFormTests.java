@@ -57,7 +57,6 @@ public class StudentRegistrationFormTests {
         $(".react-datepicker__year-select").selectOption(calendarYear);
         $(".react-datepicker__day--0" + calendarDay).click();
 
-
         $("#subjectsInput").click();
         $("#subjectsInput").setValue(subjectsFullText).pressEnter();
         $("#subjectsInput").click();
@@ -99,7 +98,7 @@ public class StudentRegistrationFormTests {
         $x("//td[contains(.,'State and City')]/following-sibling::td").shouldHave(text(stateName + " " + cityName));
 
         $("#closeLargeModal").click();
-                $("#closeLargeModal").shouldNotHave(visible);
+        $("#closeLargeModal").shouldNotHave(visible);
 
         //registration form cleanup check
         $("#firstName").setValue("");
