@@ -98,7 +98,7 @@ public class StudentRegistrationFormTests {
         $x("//td[contains(.,'State and City')]/following-sibling::td").shouldHave(text(stateName + " " + cityName));
 
         $("#closeLargeModal").click();
-        $("#closeLargeModal").shouldNotHave(visible);
+        $("#closeLargeModal").shouldNotBe(visible);
 
         //registration form cleanup check
         $("#firstName").setValue("");
@@ -109,7 +109,7 @@ public class StudentRegistrationFormTests {
         $("#currentAddress").setValue("");
 
         $("#submit").click();
-        $("#closeLargeModal").shouldNotHave(visible);
+        $("#closeLargeModal").shouldNotBe(visible);
 
     }
 }

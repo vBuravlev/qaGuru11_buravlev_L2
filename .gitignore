@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
-
-@vBuravlev
-autotests-cloud
-/
-selenide-web-ios-android-tests
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-selenide-web-ios-android-tests/.gitignore
-@svasenkov
-svasenkov Update .gitignore
-Latest commit 0d93018 on 29 Jan 2021
- History
- 1 contributor
-42 lines (36 sloc)  408 Bytes
-
 # Compiled class file
 *.class
 
@@ -68,15 +40,5 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+/settings.gradle
+
