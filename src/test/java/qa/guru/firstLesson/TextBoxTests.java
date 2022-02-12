@@ -1,4 +1,4 @@
-package guru.qa.tests;
+package qa.guru.firstLesson;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
